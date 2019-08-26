@@ -1,11 +1,12 @@
-name: Hello, World!
-on: push
+name: pullreq
+on:
+  pull_request:
+    branches:
+    - master
 
 jobs:
   build:
-    name: Greeting
+    name: PullReqTest
     runs-on: ubuntu-latest
-    container:
-      image: node
     steps:
-      - run: node -e 'console.log("Hello, World!");'
+      - run: echo "PullReqTest"
