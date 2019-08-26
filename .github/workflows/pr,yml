@@ -1,0 +1,11 @@
+name: Hello, World!
+on: push
+
+jobs:
+  build:
+    name: Greeting
+    runs-on: ubuntu-latest
+    container:
+      image: node
+    steps:
+      - run: node -e 'console.log("Hello, World!");'
