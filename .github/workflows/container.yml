@@ -8,4 +8,7 @@ jobs:
     container:
       image: node
     steps:
-      - run: node -e 'console.log("Docker Sample");'
+      - name: node version
+        run: node --version
+      - name: node -e 
+        run: node -e 'console.log("Docker Sample");'
