@@ -1,0 +1,11 @@
+name: Docker Sample
+on: push
+
+jobs:
+  build:
+    name: Docker Sample
+    runs-on: ubuntu-latest
+    container:
+      image: node
+    steps:
+      - run: node -e 'console.log("Docker Sample");'
