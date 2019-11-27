@@ -1,5 +1,7 @@
 # 概要
 
+[![Actions Status](https://github.com/yasu-s/github-actions-sample/workflows/Docker%20Sample/badge.svg)](https://github.com/yasu-s/github-actions-sample/actions)
+[![Actions Status](https://github.com/yasu-s/github-actions-sample/workflows/pullreq/badge.svg)](https://github.com/yasu-s/github-actions-sample/actions)
 [![Actions Status](https://github.com/yasu-s/github-actions-sample/workflows/CI/badge.svg)](https://github.com/yasu-s/github-actions-sample/actions)
 
 # URL
